@@ -80,7 +80,7 @@
 	Calculating upgrade... Done
 	0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
 	```
-### Install required FUSE and WebDAV support
+### Installed required FUSE and WebDAV support
  
 - Checked versions of `davfs2`, `fuse`, and `libfuse-dev` currently installed:
 	```
@@ -184,12 +184,12 @@
 	tmcphill@artemis:~$ sudo usermod -g users tmcphill
 	```
 
-- Confirmed that entry in /etc/passwd has been updated to reflect new primary group:
+- Confirmed that entry in `/etc/passwd` has been updated to reflect new primary group:
 	```
 	tmcphill@artemis:~$ grep tmcphill /etc/passwd
 	tmcphill:x:1000:100:Timothy McPhillips,,,:/home/tmcphill:/bin/bash
 	```
-- Added `tmcphill` group as a second group for the `tmcphill` account so current access to files is maintained, and confirmed that previous memberships are maintained (via the `-a` flag):
+- Added `tmcphill` group as a second group for the `tmcphill` account so current access to files is maintained, and confirmed that all other previous groups memberships are maintained (via the `-a` flag):
 	```
 	tmcphill@artemis:~$ sudo usermod -a -G tmcphill tmcphill
 	
@@ -370,6 +370,7 @@
 - Performed increment 2 of the system backup before starting Whole Tale for the first time:
 ![](https://lh3.googleusercontent.com/71ZRGWUcoQv7pUZx9w5Xa0xREeYP5sl3j3h4yRYn8wRBArp2Ss8CpxsPidK0Ilhz9Wr7T0iXCEvU=s800)
 
+### Ensured python and pip versions are consistent
 
 - Linked `/usr/bin/python` to `/usr/bin/python3.7`:
 	``` 
@@ -478,5 +479,5 @@
 	wheel                   0.33.6
 	xkit                    0.0.0
 	```
-- Backed up system again (increment 3) before starting Whole Tale:
+- Backed up system again (increment 3):
 ![](https://lh3.googleusercontent.com/U76_H8nFVGY4l-aFXKssQUOCcLHoZMqD0RrY1EH2_IHow4L8yerhiQREk4hVgfr2s4nD7LhM_fXg=s800)

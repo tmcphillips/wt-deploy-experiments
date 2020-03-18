@@ -1202,7 +1202,7 @@
 	ConnectionRefusedError: [Errno 111] Connection refused
 	. . .
 	```
-- During handling of the above exception, another exception occurred indicating that the failed connection is on port 443:
+- During handling of the above exception, another exception occurred indicating that the failed connection is on port 443 (HTTPS):
 	```
 	Traceback (most recent call last):
 	  File "/usr/local/lib/python3.7/dist-packages/requests/adapters.py", line 449, in send
@@ -1254,7 +1254,7 @@
 
 	- There is both a  `wt_dashboard` and a `wt_dashboard_next` service running on `artemis`.  The expected output in the README does not  includes  `wt_dashboard_next`.
 
-	- The ports associated with `wt_traefik` include `443` (https) on `artemis`...
+	- The ports associated with `wt_traefik` include `443` (HTTPS) on `artemis`...
 		```
 		...   wt_traefik    ...   *:80->80/tcp, *:443->443/tcp, *:8080->8080/tcp
 		```

@@ -1,6 +1,6 @@
 ## 2020-03-17 Attempt to start WT services on artemis
 
-### Deployed WT services to artemis
+### Deployed WT services to artemis with `make services`
 - Started from checkpoint following third increment to system backup on [2020-03-16](../notes/2020-03-16%20set%20up%20artemis%20for%20running%20whole%20tale%20locally.md).
 
 - Ran `services` Makefile target without obvious errors:
@@ -307,7 +307,7 @@
 	Receiving objects: 100% (359/359), 127.91 KiB | 2.46 MiB/s, done.
 	Resolving deltas: 100% (179/179), done.
 	```
-### Encountered errors starting WT services
+### Encountered errors starting WT services with `make dev`
 
 - Ran Makefile `dev` target and saw no obvious errors up to just before invocation of `setup_girder.py` :
 	```

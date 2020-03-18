@@ -7,12 +7,12 @@
 - Will deploy WT to artemis which is running the version of Ubuntu supported by WT.
 
 ### Backed up entire disk hosting Ubuntu environment
-- Used Paragon Hard Disk Manager 16.5 Advanced on Apollo (Windows 10).
-- Performed a full backup of artemis system disk as part of a new incremental backup sequence:![](https://lh3.googleusercontent.com/RPACnf8U3ywmLp9EORV87UzafqxP0Xh5qFl1T3yjR9nkvBxFykzGRDbz_znOuyFvy0v0TtlZ_JrX=s800)
+- Performed a full backup of artemis system disk as part of a new incremental backup sequence (using `Paragon Hard Disk Manager 16.5 Advanced` installed on Windows 10 drive):
+![](https://lh3.googleusercontent.com/RPACnf8U3ywmLp9EORV87UzafqxP0Xh5qFl1T3yjR9nkvBxFykzGRDbz_znOuyFvy0v0TtlZ_JrX=s800)
 	 ![](https://lh3.googleusercontent.com/hc6rowwjQdK-9rPSA6wntBarL3AbqIDkrPpsWt4E_R2lCBjiRV9HtvdXcteACKHz1dwxp8fVpDrm=s800)
 ![
 ](https://lh3.googleusercontent.com/zkm3r5rRJTClo806qheZnSJRmDtxU4iIVsG7J0Bil5iphZ1GfhubqkLa5rRUXmNcTMsMShLKLmQ9=s800)
-### Confirm distribution and kernel version and that system is up to date 
+### Confirmed distribution and kernel version and that system is up to date 
 
 - Confirmed that artemis is running **Ubuntu 18.04**:
 	```

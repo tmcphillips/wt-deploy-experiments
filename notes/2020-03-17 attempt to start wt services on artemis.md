@@ -1,7 +1,7 @@
 ## 2020-03-17 Attempt to start WT services on artemis
 
 ### Deployed WT services to artemis
-- Started from checkpoint following third increment to system backup on 202-03-16.
+- Started from checkpoint following third increment to system backup on [2020-03-16](..2020-03-16%20set%20up%20artemis%20for%20running%20whole%20tale%20locally.md).
 
 - Ran `services` Makefile target without obvious errors:
 	```

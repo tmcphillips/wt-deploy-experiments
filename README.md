@@ -1,1 +1,1 @@
-# wt-deploy-experiments
+# wt-experiments
